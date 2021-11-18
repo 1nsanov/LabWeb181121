@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <title>181121</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Техосмотр автомобиля</h1><br>
+        <label for="">Введите марку</label><br>
+        <input type="text" name="" id="brand"><br><br>
+        <label for="">Введите год выпуска</label><br>
+        <input type="number" name="" id="year"><br><br>
+        <label for="">Введите вес (т)</label><br>
+        <input type="number" name="" id="weight"><br><br>
+        <label for="">Введите цвет</label><br>
+        <input type="text" name="" id="color"><br><br>
+        <button onclick="CreateTechView()">Результат техосмотра</button> <br> <br>
+        <div class="tech-view">
+            <div>Марка: <span id="brand-span"></span></div>
+            <div>Год выпуска: <span id="year-span"></span></div>
+            <div>Вес: <span id="weight-span"></span></div>
+            <div>Цвет: <span id="color-span"></span> </div>
+            <div>Цена техосмотра: <span id="cost-span"></span> </div>
+        </div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+
+</html>
